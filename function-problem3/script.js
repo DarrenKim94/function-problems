@@ -1,0 +1,19 @@
+// Write a JavaScript function that accepts two arguments, a string and a letter and the 
+// function will count the number of occurrences of the specified letter within the string. 
+
+function letterAmount (str, letter){
+// Define a variable to start at 0 to count
+    let letterCount = 0
+// Define a variable to take the string, lowercase and seperate each letter individually
+    let arrayOfLetters = str.toLowerCase().split('');
+// for each loop with a random name of element to know what im looping through
+    arrayOfLetters.forEach(function(element) {
+// checks the string to see if it has the letter, if it does adfd one to letterCount
+        if (letter.includes(element)){
+            letterCount += 1
+        }
+    })
+    console.log (letterCount)
+}
+
+letterAmount ('I love You', 'o')

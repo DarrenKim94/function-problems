@@ -8,8 +8,9 @@ function letterAmount (str, letter){
     let arrayOfLetters = str.toLowerCase().split('');
 // for each loop with a random name of element to know what im looping through
     arrayOfLetters.forEach(function(element) {
-// checks the string to see if it has the letter, if it does adfd one to letterCount
-        if (letter.includes(element)){
+// checks the string to see if it has the letter, if it does add one to letterCount
+// lowercase the letter argument
+        if (letter.toLowerCase().includes(element)){
             letterCount += 1
         }
     })

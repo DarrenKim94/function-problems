@@ -14,7 +14,7 @@ function findVowels( sentence) {
             numOfVowels += 1;
         }
     })
-    return(numOfVowels)
+    return numOfVowels
 }
 
 findVowels ('HUMPTY DUMPTY SAT ON A WALL')

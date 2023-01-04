@@ -3,9 +3,9 @@
 // numbers that are multiples of both three and five print "FizzBuzz".
 
 // dont need an argument because we just need to call the function
-function fizzBuzz () {
+function fizzBuzz() {
 // loop from 1 to 100 by 1
-    for (let i = 1; i < 100; i++) {
+    for (let i = 1; i <= 100; i++) {
 // write an if statement that makes condition true only if both modulos are true
         if (i % 3 === 0 && i % 5 === 0) {
             console.log(i, 'FizzBuzz');

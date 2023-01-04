@@ -14,7 +14,7 @@ function letterAmount (str, letter){
             letterCount += 1
         }
     })
-    console.log (letterCount)
+    return letterCount
 }
 
 letterAmount ('I love You', 'o')

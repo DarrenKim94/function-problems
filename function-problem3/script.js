@@ -7,14 +7,14 @@ function letterAmount (str, letter){
 // Define a variable to take the string, lowercase and seperate each letter individually
     let arrayOfLetters = str.toLowerCase().split('');
 // for each loop with a random name of element to know what im looping through
-    arrayOfLetters.forEach(function(element) {
+    arrayOfLetters.forEach(function(item) {
 // checks the string to see if it has the letter, if it does add one to letterCount
 // lowercase the letter argument
-        if (letter.toLowerCase().includes(element)){
+        if (letter.includes(item)){
             letterCount += 1
         }
     })
     return letterCount
 }
 
-letterAmount ('I love You', 'o')
+letterAmount ('I lOve You', 'o')

@@ -2,7 +2,7 @@
 //Find the longest word within the string
 
 //Name the function and set a parameter
-function findLongestWord (string) {
+function findLongestWord(string) {
     //take the string and split the sentence into an array of individual strings of words
     //Do so by using ' ', so that it doesnt take letters instead
     let words = string.split(' ')

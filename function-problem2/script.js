@@ -1,7 +1,7 @@
 // Write a JavaScript function that accepts a string as a parameter 
 // and counts the number of vowels within the string
 
-function findVowels( sentence) {
+function findVowels(sentence) {
 //define what a vowel is
     const vowels = ['a', 'e', 'i', 'o', 'u'];
 // turn the string into all lowercases and split them into individual letters
